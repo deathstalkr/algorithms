@@ -36,7 +36,7 @@ The score for the current box is the highest of these four possibilities.
 As we fill the grid, we also keep track of the absolute highest score we find anywhere in the entire grid. This highest score tells us how good our best local match is.
 
 **The Score Formula for Each Box (H(i,j)):**  
-H(i,j)=max of⎩⎨⎧​Score from diagonal+Match/Mismatch ScoreScore from above+Gap PenaltyScore from left+Gap Penalty0​
+![formula](https://github.com/deathstalkr/algorithms/blob/Smith-Waterman/Dynamic%20Programming/Smith-Waterman/Screenshot%20from%202025-06-26%2015-31-10.png?raw=true)
 
 ### **Part 2: Tracing Back to Find the Best Match**
 
